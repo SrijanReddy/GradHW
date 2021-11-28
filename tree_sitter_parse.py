@@ -4,8 +4,8 @@ import os
 import glob
 import shutil
 
-#link_of_repo=input('enter link: ')
-Repo.clone_from('https://github.com/SrijanReddy/Plant-Disease-Detection-using-CNN','clones');
+link_of_repo=input('enter link: ')
+Repo.clone_from(link_of_repo,'clones');
 py_links,js_links,go_links,rby_links=[],[],[],[]
 fpath=glob.glob('clones/*')
 
